@@ -29,4 +29,4 @@
 
 
 * Consider 
-	* `Froilan` is a `Farmer` who has 5 horses
+	* `Froilan` is a `Farmer` who has 5 `Horse`
