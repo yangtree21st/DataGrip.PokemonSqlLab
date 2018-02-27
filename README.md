@@ -35,6 +35,7 @@
 	* `ChickenCoop` stores many `Chicken`
 	* `Farm` stores many `Stable`, many `DogHouse`, and a single `FarmHouse`
 
+# Establishing The Plot
 
 * `Froilan`, a `Farmer` has a `Farm` consisting of
 	* 1 `Field` of 5 `CropRow`.
@@ -50,8 +51,13 @@
 	* His sister, `Froilanda`, is a `Pilot` who uses a `CropDuster`.
 
 
+
 # The Plot Thickens...
-* Create a separate Test class for each day in the following scenario...
+* Create a test cases which simulate a typical work-week for `Froilan` and `Froilanda`.
+	* The accumulation of your test cases should ensure at least 80% test coverage.
+
+* The first few weekdays have already been considered for you.
+* Create a separate Test class for each day in the following scenario.
 * As a farmer, Froilan must stick to a rigorous agricultural routine.
 	* Every morning, `Froilan` and `Froilanda` begin their morning by
 		* Riding each `Horse` in each `Stable`.
