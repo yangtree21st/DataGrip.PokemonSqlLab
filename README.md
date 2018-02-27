@@ -60,14 +60,14 @@
 
 * The first few weekdays have already been considered for you.
 * Create a separate Test class for each day in the following scenario.
-* As a farmer, Froilan must stick to a rigorous agricultural routine.
-	* Every morning, `Froilan` and `Froilanda` begin their morning by
-		* Riding each `Horse` in each `Stable`.
-		* Feeding each `Horse` 3 ear of `Corn`.
-		* For breakfast,
-			* `Froilan` eats 1 `EarCorn`, 2 `Tomoato`, and 5 `Egg`.
-			* `Froilanda` eats 2 `EarCorn`, 1 `Tomoato`, and 2 `Egg`.
+	* As a farmer, Froilan must stick to a rigorous agricultural routine.
+		* Every morning, `Froilan` and `Froilanda` begin their morning by
+			* Riding each `Horse` in each `Stable`.
+			* Feeding each `Horse` 3 ear of `Corn`.
+			* For breakfast,
+				* `Froilan` eats 1 `EarCorn`, 2 `Tomoato`, and 5 `Egg`.
+				* `Froilanda` eats 2 `EarCorn`, 1 `Tomoato`, and 2 `Egg`.
 
-	* `Sunday`, `Froilan` plants 3 different type of `Crop` in his first, second, and third `CropRow`.
-	* On `Monday`, his sister, `Froilanda` uses the `CropDuster` to `fly` over the `Field` and `fertilize` each of the `CropRow`
-	* On `Tuesday`, `Froilan` uses his `Tractor` to `fertilize` each `Crop` in each `CropRow`.
+		* `Sunday`, `Froilan` plants 3 different type of `Crop` in his first, second, and third `CropRow`.
+		* On `Monday`, his sister, `Froilanda` uses the `CropDuster` to `fly` over the `Field` and `fertilize` each of the `CropRow`
+		* On `Tuesday`, `Froilan` uses his `Tractor` to `fertilize` each `Crop` in each `CropRow`.
