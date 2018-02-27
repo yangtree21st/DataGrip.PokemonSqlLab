@@ -19,6 +19,7 @@
 		* `Aircraft` can  `fly`
 			* `Plane` are `Aircraft` which can `cruise`
 			* `Jet` are `Aircraft` which can `zoom`
+			* `Helicopter` are `Aircraft` which can `hover`
 
 	* `Produce` can `yield` an `Edible` object.
 		* `CornStalk` can `yield` a `EarCorn`
