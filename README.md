@@ -35,7 +35,7 @@
 	* `Stable` stores many `Horse`.
 	* `FarmHouse` stores many `Person`
 	* `ChickenCoop` stores many `Chicken`
-	* `Farm` stores many `Stable`, many `DogHouse`, and a single `FarmHouse`
+	* `Farm` stores many `Stable`, many `ChickenCoop`, and a single `FarmHouse`
 
 # Establishing The Plot
 
@@ -47,7 +47,6 @@
 
 	* 15 `Chicken` across 4 `ChickenCoop`
 	* 10 `Horse` across 3 `Stable`.
-	* 5 `Dog` across 2 `DogHouse`
 	* 2 `FarmVehicle`
 	* 1 `Aircraft`
 	* His sister, `Froilanda`, is a `Pilot` who uses a `CropDuster`.
