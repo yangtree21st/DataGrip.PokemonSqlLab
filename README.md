@@ -69,4 +69,4 @@
 
 		* `Sunday`, `Froilan` plants 3 different type of `Crop` in his first, second, and third `CropRow`.
 		* On `Monday`, his sister, `Froilanda` uses the `CropDuster` to `fly` over the `Field` and `fertilize` each of the `CropRow`
-		* On `Tuesday`, `Froilan` uses his `Tractor` to `fertilize` each `Crop` in each `CropRow`.
+		* On `Tuesday`, `Froilan` uses his `Tractor` to `harvest` each `Crop` in each `CropRow`.
