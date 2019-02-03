@@ -2,7 +2,6 @@
 * **Objective:** To implement a system indicative of a Farm environment
 * **Purpose:** To demonstrate [multi-inheritence design issues](https://www.geeksforgeeks.org/java-and-multiple-inheritance/)
 * **Prerequesites:** A `UML` approved by an instructor.
-	* UMLs can be created using [UMLet](https://www.umlet.com/), [draw.io](https://www.draw.io/), or even [IntelliJ](https://www.jetbrains.com/help/idea/class-diagram.html)
 
 
 # Setting the Plot...
@@ -16,7 +15,7 @@
 
 	* `Rider` can `mount` and `dismount` a `Rideable` object.
 	* `Botanist` can `plant` a `Crop` in a `CropRow`.
-	* `CropRow` can store a single row of `crop`.
+	* `CropRow` can store many `Crop`.
 	* `Field` can store many `CropRow`
 	* `Vehicle` are `NoiseMaker` and `Rideable`
 		* `FarmVehicle` can `operate` on a `Farm`
@@ -55,7 +54,7 @@
 
 
 # The Plot Thickens...
-* Create a test cases which simulate a typical work-week for `Froilan` and `Froilanda`.
+* Create test cases which simulate a typical work-week for `Froilan` and `Froilanda`.
 	* The accumulation of your test cases should ensure at least 80% test coverage.
 
 * The first few weekdays have already been considered for you.
