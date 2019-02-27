@@ -7,7 +7,7 @@
 # Setting the Plot...
 
 * Consider a system in which
-	* `Eater` can `eat` an `Edible `object.
+	* `Eater` can `eat` an `Edible` object.
 	* `NoiseMaker` can `makeNoise`
 	* `Animal` is a `NoiseMaker` and `Eater`
 		* `Horse` is an `Animal` and `Rideable`
