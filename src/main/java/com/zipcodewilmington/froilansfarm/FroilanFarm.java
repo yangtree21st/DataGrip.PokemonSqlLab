@@ -6,15 +6,11 @@ import com.zipcodewilmington.froilansfarm.animal.Farmer;
 import com.zipcodewilmington.froilansfarm.animal.Horse;
 import com.zipcodewilmington.froilansfarm.animal.Person;
 import com.zipcodewilmington.froilansfarm.crop.CornStalk;
-import com.zipcodewilmington.froilansfarm.crop.Crop;
 import com.zipcodewilmington.froilansfarm.crop.GenericVegetation;
 import com.zipcodewilmington.froilansfarm.crop.TomatoPlant;
-import com.zipcodewilmington.froilansfarm.edible.Tomato;
 import com.zipcodewilmington.froilansfarm.storage.ChickenCoop;
 import com.zipcodewilmington.froilansfarm.storage.Farm;
-import com.zipcodewilmington.froilansfarm.storage.FarmHouse;
 import com.zipcodewilmington.froilansfarm.storage.Stable;
-import com.zipcodewilmington.froilansfarm.storage.field.CropRow;
 import com.zipcodewilmington.froilansfarm.storage.field.Field;
 import com.zipcodewilmington.froilansfarm.vehicle.CropDuster;
 import com.zipcodewilmington.froilansfarm.vehicle.Tractor;
@@ -28,8 +24,6 @@ import java.util.function.Supplier;
 public class FroilanFarm {
 
     private Farm farm;
-    private Farmer froilan;
-    private Farmer froilanda;
 
     public Farm getFarm() {
         return farm;
@@ -54,11 +48,8 @@ public class FroilanFarm {
     }
 
     private void addFarmHouseToFarm(Farm farm) {
-        froilan = new Farmer(farm);
-        froilanda = new Farmer(farm);
-
-        farm.addFarmerToFarm(froilan);
-        farm.addFarmerToFarm(froilanda);
+        farm.addFarmerToFarm(new Farmer("frolian"));
+        farm.addFarmerToFarm(new Farmer("froilanda"));
     }
 
     private void addFieldToFarm(Farm farm) {
@@ -70,6 +61,7 @@ public class FroilanFarm {
         farm.CreateCropRowInField(GenericVegetation::new, 5);
         farm.CreateCropRowInField(GenericVegetation::new, 5);
     }
+
     private void addChickenCoopToFarm(Farm farm) {
         farm.addChickenCoopToFarm(ChickenCoop::new, Chicken::new, 4, 15);
     }
@@ -78,12 +70,6 @@ public class FroilanFarm {
         farm.addStablesToFarm(Stable::new, Horse::new,3, 10);
     }
 
-    public Farmer getFroilan() {
-        return froilan;
-    }
-    public Farmer getFroilanda() {
-        return froilanda;
-    }
 
     public void rideHorse() {
         List<Person> farmerList = farm.getFarmHouse().getFarmers();

@@ -10,10 +10,8 @@ import com.zipcodewilmington.froilansfarm.storage.Farm;
 
 public class Farmer extends Person implements Rider, Botanist {
 
-    private Farm farm;
-
-    public Farmer(Farm farm){
-        this.farm = farm;
+    public Farmer(String name) {
+        super(name);
     }
 
     public void eat(Edible food) {
@@ -30,12 +28,5 @@ public class Farmer extends Person implements Rider, Botanist {
 
     public void plant(Crop crop, CropRow cropRow) {
 
-    }
-    public Farm getFarm() {
-        return farm;
-    }
-
-    public void setFarm(Farm farm) {
-        this.farm = farm;
     }
 }
