@@ -11,6 +11,11 @@ import com.zipcodewilmington.froilansfarm.storage.Farm;
 public class Farmer extends Person implements Rider, Botanist {
 
     private Farm farm;
+
+    public Farmer(Farm farm){
+        this.farm = farm;
+    }
+
     public void eat(Edible food) {
 
     }
