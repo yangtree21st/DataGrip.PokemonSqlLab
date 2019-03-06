@@ -6,14 +6,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class Stable {
-    List<Horse> horses = new ArrayList<Horse>();
+public class Stable extends Storage<Horse> {
 
-    public void add(Horse horse) {
-        horses.add(horse);
-    }
-
-    public Collection< Horse> getHorses() {
-        return horses;
-    }
 }

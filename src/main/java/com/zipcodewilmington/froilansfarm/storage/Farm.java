@@ -107,14 +107,8 @@ public class Farm {
     public List<Horse> getHorses() {
         List<Horse> horses = new ArrayList<Horse>();
         for(Stable stable : stables){
-            horses.addAll(stable.getHorses());
+            horses.addAll(stable.getItems());
         }
         return horses;
-    }
-    public CornStalk getCorn()
-    {
-        return null;
-        //for(Crop crop : field.get)
-
     }
 }

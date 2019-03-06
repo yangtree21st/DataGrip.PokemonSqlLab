@@ -6,14 +6,6 @@ import com.zipcodewilmington.froilansfarm.animal.Person;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FarmHouse {
-    List<Person> persons = new ArrayList<Person>();
-    public void add(Person person)
-    {
-        persons.add(person);
-    }
+public class FarmHouse extends Storage<Person>{
 
-    public List<Person> getFarmers() {
-        return persons;
-    }
 }
