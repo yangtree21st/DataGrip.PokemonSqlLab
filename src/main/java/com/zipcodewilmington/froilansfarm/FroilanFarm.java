@@ -72,7 +72,7 @@ public class FroilanFarm {
 
 
     public void rideHorse() {
-        List<Person> farmerList = farm.getFarmHouse().getFarmers();
+        List<Person> farmerList = farm.getFarmHouse().getItems();
         farmerList.forEach(person -> {
             if(person instanceof Farmer) {
                 for (Horse horse : farm.getHorses()) {
